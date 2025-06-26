@@ -10,7 +10,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:80"  # Expose Nginx serving on port 3000
+      - "3000:80"  # Exposdde Nginx serving on port 3000
     networks:
       - app-network
 
